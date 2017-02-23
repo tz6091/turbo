@@ -9,5 +9,6 @@ data = pd.read_csv('test.csv',nrows = 5)
 
 print data
 
-print 'hehe'
 data.to_csv('newOutFile.csv')
+
+data.shape

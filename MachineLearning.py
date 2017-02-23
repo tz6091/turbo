@@ -19,3 +19,4 @@ clf.fit(X,y)
 print(clf.coef_)  #存放相关系数
 print(clf.intercept_)  #是否存在截距，默认存在
 
+
